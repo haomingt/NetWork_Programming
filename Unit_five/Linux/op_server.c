@@ -104,7 +104,7 @@ int main(int argc, char *argv[])
             times[strlen] = 0;
             // 读取数字
             char temp[BUF_SIZE];
-            for (int i = strtoint(times, strlen); i >= 0; i--)
+            for (int i = strtoint(times, strlen); i > 0; i--)
             {
                 if (strlen = read(client_sock, &temp, BUF_SIZE) == -1)
                 {
